@@ -8,8 +8,10 @@ namespace Message.Kafka.Consumer.Domain.Models
 {
     public class Message
     {
-        int Id { get; set; }
-        DateTime Timestamp { get; set; }
-        string Messages { get; set; }
+        public string Name { get; set; }
+        public string Lastname { get; set; }
+        public string Telephone { get; set; }
+
     }
+
 }
